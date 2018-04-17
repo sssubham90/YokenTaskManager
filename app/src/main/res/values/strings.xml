@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">YokenTaskManager</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="makeAdmin">Make Admin</string>
+    <string name="removeAdmin">Remove Admin</string>
+    <string name="task_id">Task ID:</string>
+    <string name="task_title">Task Title:</string>
+    <string name="admin">Admin:</string>
+    <string name="join_group">Join Group</string>
+    <string name="add_user">Add User</string>
+    <string name="remove_user">Remove User</string>
+    <string name="description">Description</string>
+    <string name="task_details">TASK DETAILS</string>
+    <string name="users">USERS</string>
+    <string name="documents">Documents</string>
+    <string name="register">Register</string>
+    <string name="user_name">User Name</string>
+</resources>

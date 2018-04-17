@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewTaskActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="NEW TASK"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/taskTitle"
+        android:hint="Task Name"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:padding="2dp"
+        android:id="@+id/taskDescription"
+        android:hint="What's it about?"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:ems="10"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/border"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:id="@+id/open"
+            android:text="Open"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:id="@+id/close"
+            android:text="Close"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Anonymously."
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/addTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TASK"
+        android:background="@drawable/button"
+        android:layout_margin="16dp"
+        android:textColor="@color/colorGreen"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

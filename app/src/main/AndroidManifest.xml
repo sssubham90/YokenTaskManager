@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devil.yokentaskmanager">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/yoken_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/yoken_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.TaskDetailActivity" />
+        <activity android:name=".activities.UserDetailActivity" />
+        <activity android:name=".activities.NewTaskActivity" />
+        <activity android:name=".activities.UploadDOCActivity" />
+        <activity android:name=".activities.DocumentListActivity" />
+        <activity android:name=".activities.RegisterActivity"/>
+    </application>
+
+</manifest>

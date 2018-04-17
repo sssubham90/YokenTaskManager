@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "221703145637",
+    "firebase_url": "https://yokentaskmanager.firebaseio.com",
+    "project_id": "yokentaskmanager",
+    "storage_bucket": "yokentaskmanager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221703145637:android:daac6f6612dc3e2f",
+        "android_client_info": {
+          "package_name": "com.devil.yokentaskmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221703145637-g73g7euaq0sd7j6pgdjldojplkp7k4cb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devil.yokentaskmanager",
+            "certificate_hash": "7743632891f0bd0c67cd14c6c40f7e418b80636f"
+          }
+        },
+        {
+          "client_id": "221703145637-jq6645motd7aat27o3dqi91a8fb58atl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtl8RMmYTiPQTrObJe6p_Nr2eBYWGziLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221703145637-jq6645motd7aat27o3dqi91a8fb58atl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
