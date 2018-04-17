@@ -42,11 +42,11 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:layout_gravity="center_horizontal"
-        android:text="Make Admin"/>
+        android:text="@string/make_admin"/>
 
     <TextView
         android:layout_margin="4dp"
-        android:text="TASKS"
+        android:text="@string/tasks"
         android:textSize="18sp"
         android:textColor="@android:color/black"
         android:layout_gravity="center_horizontal"

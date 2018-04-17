@@ -10,7 +10,7 @@
         android:orientation="horizontal"
         android:layout_margin="4dp">
         <TextView
-            android:text="Name:"
+            android:text="@string/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -30,7 +30,7 @@
         android:orientation="horizontal"
         android:layout_margin="4dp">
         <TextView
-            android:text="DOC Type:"
+            android:text="@string/doc_type"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -50,7 +50,7 @@
         android:orientation="horizontal"
         android:layout_margin="4dp">
         <TextView
-            android:text="Uploaded By"
+            android:text="@string/uploaded_by"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -83,7 +83,7 @@
         android:orientation="horizontal"
         android:layout_margin="4dp">
         <TextView
-            android:text="Time Of Upload:"
+            android:text="@string/time_of_upload"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -108,7 +108,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="Download"/>
+            android:text="@string/download"/>
         <Button
             android:id="@+id/delete"
             android:layout_width="0dp"
@@ -116,7 +116,7 @@
             android:layout_weight="1"
             android:layout_margin="4dp"
             android:layout_gravity="center_horizontal"
-            android:text="Delete"/>
+            android:text="@string/delete"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -35,7 +35,8 @@
                     android:layout_height="24dp"
                     android:layout_gravity="center_vertical"
                     android:padding="2dp"
-                    android:src="@drawable/logout" />
+                    android:src="@drawable/logout"
+                    android:contentDescription="@string/app_name" />
             </LinearLayout>
 
             <TextView
@@ -43,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:padding="4dp"
-                android:text="YOKEN MEMO"
+                android:text="@string/yoken_memo"
                 android:textColor="#fff"
                 android:textSize="24sp" />
         </LinearLayout>

@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import android.net.MailTo;
 
 import com.devil.yokentaskmanager.activities.LoginActivity;
 import com.devil.yokentaskmanager.activities.MainActivity;

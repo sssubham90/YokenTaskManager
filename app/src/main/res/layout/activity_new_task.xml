@@ -11,7 +11,7 @@
         android:textColor="@android:color/white"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="NEW TASK"
+        android:text="@string/new_task"
         android:gravity="center_horizontal"
         android:textSize="28sp"
         android:padding="8dp"
@@ -22,14 +22,14 @@
         android:layout_height="wrap_content"
         android:inputType="text"
         android:id="@+id/taskTitle"
-        android:hint="Task Name"
+        android:hint="@string/task_name"
         android:layout_margin="8dp"
         android:textColor="@android:color/black"/>
 
     <EditText
         android:padding="2dp"
         android:id="@+id/taskDescription"
-        android:hint="What's it about?"
+        android:hint="@string/what_s_it_about"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="top"
@@ -51,27 +51,27 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:id="@+id/open"
-            android:text="Open"/>
+            android:text="@string/open"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:id="@+id/close"
-            android:text="Close"/>
+            android:text="@string/close"/>
     </RadioGroup>
 
     <CheckBox
         android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Post Anonymously."
+        android:text="@string/post_anonymously"
         android:layout_gravity="center_horizontal"/>
 
     <Button
         android:id="@+id/addTask"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ADD TASK"
+        android:text="@string/add_task"
         android:background="@drawable/button"
         android:layout_margin="16dp"
         android:textColor="@color/colorGreen"
