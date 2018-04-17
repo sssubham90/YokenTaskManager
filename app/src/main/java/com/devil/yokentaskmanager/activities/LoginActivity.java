@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
                                 dialog.dismiss();
                                 Log.d(TAG, "signInWithEmail:success");
                                 sessionManager = new SessionManager(LoginActivity.this);
-                                DatabaseReference reference = FirebaseDatabase.getInstance().getReference("users/"+email.substring(0,email.indexOf('@')));
+                                DatabaseReference reference = FirebaseDatabase.getInstance().getReference("users/"+email.substring(0,email.indexOf('@')).replace(".",""));
                                 reference.addListenerForSingleValueEvent(new ValueEventListener() {
                                     @Override
                                     public void onDataChange(DataSnapshot dataSnapshot) {

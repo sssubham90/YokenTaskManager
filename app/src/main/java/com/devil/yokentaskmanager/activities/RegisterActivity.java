@@ -53,12 +53,12 @@ public class RegisterActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 Log.d(TAG, "createUserWithEmail:success");
-                                FirebaseDatabase.getInstance().getReference("users/"+email.substring(0,email.indexOf('@'))).child("ID").setValue(name);
-                                FirebaseDatabase.getInstance().getReference("users/"+email.substring(0,email.indexOf('@'))).child("adminRights").setValue("N");
+                                FirebaseDatabase.getInstance().getReference("users/"+email.substring(0,email.indexOf('@')).replace(".","")).child("ID").setValue(name);
+                                FirebaseDatabase.getInstance().getReference("users/"+email.substring(0,email.indexOf('@')).replace(".","")).child("adminRights").setValue("N");
                                 dialog.dismiss();
                                 Toast.makeText(RegisterActivity.this, "Welcome, "+name,
                                         Toast.LENGTH_SHORT).show();
-                                sessionManager.createLoginSession(name,email.substring(0,email.indexOf('@')),"N");
+                                sessionManager.createLoginSession(name,email.substring(0,email.indexOf('@')).replace(".",""),"N");
                             } else {
                                 Log.w(TAG, "createUserWithEmail:failure", task.getException());
                                 dialog.dismiss();
