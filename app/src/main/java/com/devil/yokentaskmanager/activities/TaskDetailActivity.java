@@ -116,8 +116,9 @@ public class TaskDetailActivity extends AppCompatActivity {
                                                 public void onDataChange(DataSnapshot dataSnapshot) {
                                                     for(DataSnapshot childsSnapshot : dataSnapshot.getChildren()){
                                                         if(childsSnapshot.getKey().equals(ID)){
+                                                            String name = childsSnapshot.child("ID").getValue().toString();
                                                             FirebaseDatabase.getInstance().getReference("users/"+ID+"/tasks").child(taskID).setValue(taskTitle);
-                                                            mRef.child("users").child(sessionManager.getEmail()).setValue(sessionManager.getName());
+                                                            mRef.child("users").child(ID).setValue(name);
                                                             res = true;
                                                             break;
                                                         }
