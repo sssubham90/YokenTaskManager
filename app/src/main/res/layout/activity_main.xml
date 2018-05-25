@@ -68,7 +68,16 @@
                 android:layout_height="50dp"
                 app:srcCompat="@drawable/envelope"
                 android:scaleType="fitXY"
-                android:layout_marginLeft="290dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="22dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/settings"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="330dp"
                 android:layout_marginTop="22dp"/>
 
 
