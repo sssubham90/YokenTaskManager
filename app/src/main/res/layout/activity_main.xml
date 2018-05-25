@@ -38,7 +38,10 @@
             <Spinner
                 android:id="@+id/spinner2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:src="@drawable/background"
+                android:entries="@array/options"/>
+
 
             <EditText
                 android:id="@+id/editText"
@@ -49,6 +52,24 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="Name" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="22dp"
+                app:srcCompat="@drawable/notification"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/envelope"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="22dp"/>
 
 
         </android.support.design.widget.CollapsingToolbarLayout>
