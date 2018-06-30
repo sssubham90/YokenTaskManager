@@ -28,16 +28,16 @@
         android:textColor="@android:color/black"/>
 
     <EditText
-        android:padding="2dp"
         android:id="@+id/taskDescription"
-        android:hint="@string/what_s_it_about"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:gravity="top"
-        android:ems="10"
+        android:layout_height="149dp"
         android:layout_margin="8dp"
-        android:inputType="textMultiLine"
         android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/what_s_it_about"
+        android:inputType="textMultiLine"
+        android:padding="2dp"
         android:textColor="@android:color/black" />
 
     <RadioGroup
@@ -75,6 +75,7 @@
         android:text="@string/add_task"
         android:background="@drawable/button"
         android:layout_margin="16dp"
-        android:textColor="@color/colorGreen"
+        android:textColor="#ffffff"
+        android:backgroundTint="#f8bbd0"
         android:layout_gravity="center_horizontal"/>
 </LinearLayout>

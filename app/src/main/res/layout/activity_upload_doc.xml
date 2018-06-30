@@ -5,15 +5,15 @@
     android:orientation="vertical">
 
     <TextView
-        android:background="@android:color/black"
-        android:textColor="@android:color/white"
+        android:background="@drawable/background"
+        android:textColor="@android:color/black"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/upload_document"
         android:gravity="center_horizontal"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:padding="8dp"/>
+        android:padding="10dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,14 +58,14 @@
                 android:padding="4dp"
                 android:background="@drawable/button"
                 android:textAlignment="center"
-                android:textColor="#17c600" />
+                android:textColor="#ffff" />
             <TextView
                 android:layout_margin="8dp"
                 android:id="@+id/docPath"
                 android:padding="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorCream"
+                android:background="#b3e5fc"
                 android:ems="10" />
         </LinearLayout>
 
@@ -77,7 +77,7 @@
             android:layout_gravity="center_horizontal"
             android:background="@drawable/button"
             android:text="@string/upload"
-            android:textColor="#17c600"
+            android:textColor="#ffffff"
             android:textSize="18sp" />
     </LinearLayout>
 </LinearLayout>
