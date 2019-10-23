@@ -42,4 +42,11 @@
     <string name="user_Name">User Name:</string>
     <string name="enter_user_id">Enter User ID :</string>
     <string name="user_Id">User ID</string>
+
+
+    <string-array name="options">
+        <item>About Me</item>
+        <item>Tasks</item>
+        <item>Invite</item>
+    </string-array>
 </resources>

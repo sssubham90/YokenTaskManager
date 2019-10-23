@@ -1,12 +1,13 @@
 package com.devil.yokentaskmanager.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.devil.yokentaskmanager.R;
 import com.devil.yokentaskmanager.helpers.SessionManager;

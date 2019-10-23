@@ -109,7 +109,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"/>
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/users"
         android:layout_margin="8dp"
         android:layout_width="match_parent"
